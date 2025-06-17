@@ -1,0 +1,17 @@
+1. Masuk VENV
+2. Install library2 berikut : 
+# Pastikan virtual environment aktif terlebih dahulu!
+# Di Windows: .\venv\Scripts\activate
+# Di macOS/Linux: source venv/bin/activate
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install opencv-python
+pip install scikit-learn
+pip install pandas
+pip install rembg
+pip install Pillow
+pip install websockets
+pip install asyncio
+
+3. Pastikan sudah semua terinstal 
+4. Run program
